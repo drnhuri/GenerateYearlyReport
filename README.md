@@ -4,7 +4,7 @@ An Robotic Process Automation(RPA) project used to generate yearly report for ve
 
 This project is used to generate yearly report for a vendor by collecting monthly reports and uploading the final report and thereby updating the status by unique Id. Here Orchestrator Queue is used to process each transaction item.
 
-# Note
+## Note
 
 - Orchestrator Asset is used to store Credentials 
 - Orchesttarator Queue is used to store transaction items
@@ -23,7 +23,7 @@ This project is used to generate yearly report for a vendor by collecting monthl
 * Takes screenshots in case of system exceptions
 
 
-### How It Works ###
+## How It Works ##
 
 1. **INITIALIZE PROCESS**
  + ./Framework/*InitiAllSettings* - Load configuration data from Config.xlsx file and from assets
