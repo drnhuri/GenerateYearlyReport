@@ -1,6 +1,15 @@
-### Documentation is included in the Documentation folder ###
+# Generate Yearly Report Dispatcher
 
-[REFrameWork Documentation](https://github.com/UiPath/ReFrameWork/blob/master/Documentation/REFramework%20documentation.pdf)
+An Robotic Process Automation(RPA) project used to generate yearly report for vendors using UiPath tool. Dispatcher Process will dispatch transaction items to Orchestrator Queue for processing by Perform Process
+
+This project is used to generate yearly report for a vendor by collecting monthly reports and uploading the final report and thereby updating the status by unique Id. Here Orchestrator Queue is used to process each transaction item.
+
+# Note
+
+- Orchestrator Asset is used to store Credentials 
+- Orchesttarator Queue is used to store transaction items
+- Robotic Enterprise Framework is used(REFramwork)
+
 
 ### REFrameWork Template ###
 **Robotic Enterprise Framework**
